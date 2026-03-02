@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { settingsService } from "../services/settings.service";
+import { settingsService } from "../services/settings.service.js";
 
 class SettingsController {
   async get(req: Request, res: Response) {

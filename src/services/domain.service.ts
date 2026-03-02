@@ -1,4 +1,4 @@
-import { SchoolDomain } from "../models";
+import { SchoolDomain } from "../models/index.js";
 
 export class DomainService {
   async listDomains() {

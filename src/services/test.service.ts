@@ -1,4 +1,4 @@
-import { Test, Question, TestAssignment, Attempt, Notification, User, ActivityLog } from "../models";
+import { Test, Question, TestAssignment, Attempt, Notification, User, ActivityLog } from "../models/index.js";
 
 export class TestService {
   async createTest(data: any, teacherId: string) {

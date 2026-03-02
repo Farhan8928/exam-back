@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { pdfTemplateService } from "../services/pdfTemplate.service";
+import { pdfTemplateService } from "../services/pdfTemplate.service.js";
 
 class PdfTemplateController {
   async list(req: Request, res: Response) {

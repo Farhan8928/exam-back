@@ -1,4 +1,4 @@
-import { Question, ActivityLog } from "../models";
+import { Question, ActivityLog } from "../models/index.js";
 
 export class QuestionService {
   async createQuestion(data: any, teacherId: string) {

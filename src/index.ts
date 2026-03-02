@@ -1,9 +1,9 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import { connectDB } from "./config/database";
-import { registerAllRoutes } from "./routes";
-import { seedDatabase } from "./seed";
+import { connectDB } from "./config/database.js";
+import { registerAllRoutes } from "./routes/index.js";
+import { seedDatabase } from "./seed.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;

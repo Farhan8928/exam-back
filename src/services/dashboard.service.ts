@@ -1,4 +1,4 @@
-import { User, Test, Attempt, TestAssignment, ActivityLog } from "../models";
+import { User, Test, Attempt, TestAssignment, ActivityLog } from "../models/index.js";
 
 export class DashboardService {
   async getStats() {

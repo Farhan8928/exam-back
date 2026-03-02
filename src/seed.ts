@@ -1,5 +1,5 @@
-import { User, Question, Test, TestAssignment, Notification, SchoolDomain, SiteSettings } from "./models";
-import { hashPassword } from "./middleware/auth";
+import { User, Question, Test, TestAssignment, Notification, SchoolDomain, SiteSettings } from "./models/index.js";
+import { hashPassword } from "./middleware/auth.js";
 
 export async function seedDatabase() {
   const existingNew = await User.findOne({ email: "abdullah@nfskills.com" });

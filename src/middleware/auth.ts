@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import bcrypt from "bcrypt";
-import { User } from "../models";
+import { User } from "../models/index.js";
 
 declare global {
   namespace Express {

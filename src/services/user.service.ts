@@ -1,5 +1,5 @@
-import { User, Question, Test, TestAssignment, Attempt, Notification, ActivityLog } from "../models";
-import { hashPassword } from "../middleware/auth";
+import { User, Question, Test, TestAssignment, Attempt, Notification, ActivityLog } from "../models/index.js";
+import { hashPassword } from "../middleware/auth.js";
 
 function generateTempPassword(): string {
   const chars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789";

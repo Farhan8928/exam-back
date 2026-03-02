@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { pdfTemplateController } from "../controllers/pdfTemplate.controller";
-import { authMiddleware, roleMiddleware } from "../middleware/auth";
+import { pdfTemplateController } from "../controllers/pdfTemplate.controller.js";
+import { authMiddleware, roleMiddleware } from "../middleware/auth.js";
 
 const router = Router();
 

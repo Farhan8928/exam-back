@@ -1,4 +1,4 @@
-import { SiteSettings, ActivityLog } from "../models";
+import { SiteSettings, ActivityLog } from "../models/index.js";
 
 export class SettingsService {
   async getSettings() {

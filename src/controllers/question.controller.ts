@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { questionService } from "../services/question.service";
+import { questionService } from "../services/question.service.js";
 import { z } from "zod";
 
 const insertQuestionSchema = z.object({

@@ -1,4 +1,4 @@
-import { PdfTemplate } from "../models";
+import { PdfTemplate } from "../models/index.js";
 
 const MAX_TEMPLATES = 5;
 

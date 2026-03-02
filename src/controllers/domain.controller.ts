@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { domainService } from "../services/domain.service";
+import { domainService } from "../services/domain.service.js";
 import { z } from "zod";
 
 const insertDomainSchema = z.object({

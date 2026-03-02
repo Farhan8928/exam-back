@@ -1,5 +1,5 @@
-import { User } from "../models";
-import { hashPassword, comparePassword, createSession, destroySession } from "../middleware/auth";
+import { User } from "../models/index.js";
+import { hashPassword, comparePassword, createSession, destroySession } from "../middleware/auth.js";
 
 export class AuthService {
   async login(email: string, password: string) {

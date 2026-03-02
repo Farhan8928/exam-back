@@ -1,14 +1,14 @@
 import type { Express } from "express";
-import authRoutes from "./auth.routes";
-import userRoutes from "./user.routes";
-import questionRoutes from "./question.routes";
-import testRoutes from "./test.routes";
-import studentRoutes from "./student.routes";
-import notificationRoutes from "./notification.routes";
-import dashboardRoutes from "./dashboard.routes";
-import domainRoutes from "./domain.routes";
-import settingsRoutes from "./settings.routes";
-import pdfTemplateRoutes from "./pdfTemplate.routes";
+import authRoutes from "./auth.routes.js";
+import userRoutes from "./user.routes.js";
+import questionRoutes from "./question.routes.js";
+import testRoutes from "./test.routes.js";
+import studentRoutes from "./student.routes.js";
+import notificationRoutes from "./notification.routes.js";
+import dashboardRoutes from "./dashboard.routes.js";
+import domainRoutes from "./domain.routes.js";
+import settingsRoutes from "./settings.routes.js";
+import pdfTemplateRoutes from "./pdfTemplate.routes.js";
 
 export function registerAllRoutes(app: Express) {
   app.use(authRoutes);
